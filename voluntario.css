@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+.menu {
+  background-color: #09a7f0;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 10px 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.home {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+.gm {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.celula {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.box {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.filtro {
+  color: white;
+}
+
+.historia {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.volunteer {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.solicito {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.main {
+  background: url(Planetary\ Orb\ 04\ -\ 16x9.jpg);
+  height: auto;
+  width: auto;
+  align-content: flex-start;
+}
+.main {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  text-align: left;
+  max-width: 100%;
+  border-bottom: 2px solid #09a7f0;
+}
+
+.main-child {
+  max-width: 554px;
+}
+
+.main h1 {
+  text-align: left;
+  font-size: 70px;
+  max-width: 800px;
+  margin-left: 15px;
+}
+
+.main p {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.filtro {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.todos {
+  color: white;
+  margin-left: 20px;
+}
+.visão {
+  color: white;
+  margin-left: 10px;
+}
+
+.projeção {
+  color: white;
+  margin-left: 10px;
+}
+
+.escrita {
+  color: white;
+  margin-left: 10px;
+}
+
+.fotografia {
+  color: white;
+  margin-left: 10px;
+}
+
+.img {
+  width: 200px;
+}
+
+.item {
+  
+  margin: 20px;
+  max-height: 100%;
+}
+
+.galeria {
+  display: flex;
+overflow: scroll;
+overflow-y: hidden;
+overscroll-behavior: initial;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    background: url(planet.mobile.png);
+  }
+
+  .main-child {
+    max-width: 170px;
+  }
+
+  .menu {
+    height: 25px;
+    font-size: 7px;
+  }
+
+  .main h1 {
+    font-size: 33px;
+    max-width: 300px;
+  }
+
+  .main p {
+    font-size: 13px;
+  }
+
+  .slogam {
+    font-size: 11px;
+  }
+
+  .main {
+    height: 300px;
+  }
+
+  .content {
+    max-width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .filtro {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .section {
+    max-width: 100%;
+    border-top: 2px solid #e3631c;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    text-align: center;
+  }
+
+  .section p {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .section h1 {
+    color: #e3631b;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .section-h {
+    max-width: 100%;
+    border-top: 2px solid #e3631c;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    text-align: center;
+  }
+
+  .section-h p {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .section-h h1 {
+    color: #e3631b;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .img {
+    width: 150px;
+  }
+}
