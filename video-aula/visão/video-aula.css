@@ -37,6 +37,7 @@ body {
 }
 
 .sombra {
+    z-index: -1;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,7 +62,7 @@ body {
 .botao {
     margin-left: 0px;
     padding-right: 0px;
-    z-index: 9;
+    z-index: 99;
 }
 .img {
     width: 200px;
@@ -118,6 +119,7 @@ body {
         left: 0;
         right: 0;
         bottom: 0;
+        z-index: 0;
       }
     
     .conteudo {
@@ -137,7 +139,7 @@ body {
     .botao {
         margin-left: 100px;
         padding-right: 10px;
-        z-index: 9;
+        z-index: 99;
     }
 
 }
