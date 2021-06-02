@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    align-items: center;
+  background: rgb(0, 162, 255);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    text-align: center;
+    display: block;
+    align-items: center;
+    position: relative;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 20%;
+
+}
+
+.gradiente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   background: rgba(0, 0, 0, 0.6);
+   z-index: -1;
+   
+}
+
+.sombra {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 95%,rgba(0,0,0,.8) 100%);
+}
+
+.conteudo {
+    max-width: 100%;
+    opacity: 100%;
+   
+}
+
+.conteudo h1 {
+    font-size: 1.5rem;
+}
+.conteudo p {
+    font-size: 0.6rem;
+}
+
+.botao {
+    margin-left: 0px;
+    padding-right: 0px;
+    z-index: 9;
+}
+.img {
+    width: 200px;
+  }
+  
+  .item {
+    transition: all 500ms;
+    margin: 20px;
+    max-height: 100%;
+    z-index: 100;
+    z-index: 100;
+  }
+
+  .item:hover {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .galeria {
+    display: flex;
+  overflow: hidden;
+  overflow-y: hidden;
+  background: black;
+  box-shadow: 30px 1px 100px black;
+  z-index: 10;
+  }
+
+@media screen and (min-width: 600px) {
+    .main {
+        display: flex;
+        height: 650px;
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: left;
+        padding-top: 0%;
+    }
+
+   
+    
+    
+    .gradiente {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+    
+    .sombra {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    
+    .conteudo {
+        max-width: 80%;
+        opacity: 100%;
+        z-index: 10;
+    }
+    
+    .conteudo h1 {
+        font-size: 3rem;
+    }
+
+    .conteudo p {
+        font-size: 1rem;
+    }
+    
+    .botao {
+        margin-left: 100px;
+        padding-right: 10px;
+        z-index: 9;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .img {
+        width: 150px;
+      }
+
+}
+
