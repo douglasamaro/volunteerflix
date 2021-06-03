@@ -133,10 +133,43 @@ body {
   width: 200px;
 }
 
+::-webkit-scrollbar
+{ background-color: rgb(0, 0, 0);
+  width: 5px;/* 1 */ }
+::-webkit-scrollbar-button
+{ background-color: rgb(0, 0, 0);
+  width: 5px; /* 2 */ }
+::-webkit-scrollbar-track
+{background-color: rgb(0, 0, 0);
+  width: 5px; /* 3 */ }
+::-webkit-scrollbar-track-piece
+{background-color: rgb(0, 0, 0);
+  width: 5px; /* 4 */ }
+::-webkit-scrollbar-thumb
+{background-color: rgb(88, 88, 88);
+  width: 5px;/* 5 */ }
+::-webkit-scrollbar-corner
+{background-color: rgb(0, 0, 0);
+  width: 5px;/* 6 */ }
+::-webkit-resizer
+{background-color: rgb(0, 0, 0);
+  width: 5px; /* 7 */ }
+
+
 .item {
   
   margin: 20px;
   max-height: 100%;
+}
+
+.titulo {
+  color: rgba(255, 255, 255, 0.808);
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  font-size: 0.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
 }
 
 .galeria {
