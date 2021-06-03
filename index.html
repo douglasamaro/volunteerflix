@@ -1,88 +1,275 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+* {
+  margin: 0;
+  padding: 0;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="voluntario.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <title>Voluntários</title>
-</head>
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+.menu {
+  background-color: #09a7f0;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 10px 10px;
+  justify-content: center;
+  text-align: center;
+}
 
-<body>
+.home {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+.gm {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
 
-    <main class="main">
-        <div class="main-child">
+.celula {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
 
-            <h1>Welcome</h1>
+.box {
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
-            <p>o que você quer aprender hoje?</p>
+.filtro {
+  color: white;
+}
 
-            <div class="gradient"></div>
+.historia {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.volunteer {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.solicito {
+  margin: 10px;
+  color: white;
+  margin-right: 3vw;
+  text-decoration: none;
+}
+
+.main {
+  background: url(Planetary\ Orb\ 04\ -\ 16x9.jpg);
+  height: auto;
+  width: auto;
+  align-content: flex-start;
+}
+.main {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  text-align: left;
+  max-width: 100%;
+  border-bottom: 2px solid #09a7f0;
+}
+
+.main-child {
+  max-width: 554px;
+}
+
+.main h1 {
+  text-align: left;
+  font-size: 70px;
+  max-width: 800px;
+  margin-left: 15px;
+}
+
+.main p {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.filtro {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.todos {
+  color: white;
+  margin-left: 20px;
+}
+.visão {
+  color: white;
+  margin-left: 10px;
+}
+
+.projeção {
+  color: white;
+  margin-left: 10px;
+}
+
+.escrita {
+  color: white;
+  margin-left: 10px;
+}
+
+.fotografia {
+  color: white;
+  margin-left: 10px;
+}
+
+.img {
+  width: 200px;
+}
+
+::-webkit-scrollbar
+{ background-color: rgb(0, 0, 0);
+  width: 5px;/* 1 */ }
+::-webkit-scrollbar-button
+{ background-color: rgb(0, 0, 0);
+  width: 5px; /* 2 */ }
+::-webkit-scrollbar-track
+{background-color: rgb(0, 0, 0);
+  width: 5px; /* 3 */ }
+::-webkit-scrollbar-track-piece
+{background-color: rgb(0, 0, 0);
+  width: 5px; /* 4 */ }
+::-webkit-scrollbar-thumb
+{background-color: rgb(88, 88, 88);
+  width: 5px;/* 5 */ }
+::-webkit-scrollbar-corner
+{background-color: rgb(0, 0, 0);
+  width: 5px;/* 6 */ }
+::-webkit-resizer
+{background-color: rgb(0, 0, 0);
+  width: 5px; /* 7 */ }
 
 
+.item {
+  
+  margin: 20px;
+  max-height: 100%;
+}
 
-        </div>
+.label {
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 0;
+  border-top: 5px solid #222;
+}
 
+.titulo {
+  color: rgba(255, 255, 255, 0.808);
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  font-size: 0.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
 
-    </main>
+.galeria {
+  display: flex;
+overflow: scroll;
+overflow-y: hidden;
+overscroll-behavior: initial;
+}
 
+@media screen and (max-width: 600px) {
+  .main {
+    background: url(planet.mobile.png);
+  }
 
-    <div class="galeria">
-        <div class="item"><a href="video-aula/escrita/escrita.html"><img src="video-aula/img/escrita.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Treinamento de Escrita</p>
-        </div>
-        <div class="item"><a href="video-aula/projeção/projeção.html"><img src="video-aula/img/projeção.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Treinamento de Projeção</p>
-        </div>
-        <div class="item"><a href="video-aula/visão/visão.html"><img src="video-aula/img/visao.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Visão</p>
-        </div>
-        <div class="item"><a href="video-aula/escrita/escrita.html"><img src="video-aula/img/começo-meio-e-fim.png"
-                    alt="" class="img"></a>
-            <p class="titulo">Começo, Meio & Fim</p>
-        </div>
-        <div class="item"><a href="video-aula/projeção/projeção.html"><img src="video-aula/img/temas-e-musicas.png"
-                    alt="" class="img"></a>
-            <p class="titulo">Temas e Musicas</p>
-        </div>
-        <div class="item"><a href="video-aula/fotografia/fotografia.html"><img src="video-aula/img/fotografia.png"
-                    alt="" class="img"></a>
-            <p class="titulo">Fotografia - Luz</p>
-        </div>
-        <div class="item"><a href="video-aula/escrita/escrita.html"><img src="video-aula/img/inspiracao.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Inspiração</p>
-        </div>
-        <div class="item"><a href="video-aula/projeção/projeção.html"><img src="video-aula/img/biblia.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Biblia</p>
-        </div>
-        <div class="item"><a href="video-aula/escrita/escrita.html"><img src="video-aula/img/legenda-de-post.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Legenda de Post</p>
-        </div>
-    </div>
+  .main-child {
+    max-width: 170px;
+  }
 
-    <div class="galeria">
-        <div class="item"><a href="filmes/mais-que-vencedores/index.html"><img src="filmes/mvc.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Filme - Mais que Vencedores</p>
-        </div>
-         <div class="item"><a href="filmes/em-defesa-de-cristo/index.html"><img src="filmes/edc.png" alt=""
-                    class="img"></a>
-            <p class="titulo">Filme - Em Defesa de Cristo</p>
-        </div>
-    </div>
+  .menu {
+    height: 25px;
+    font-size: 7px;
+  }
 
+  .main h1 {
+    font-size: 33px;
+    max-width: 300px;
+  }
 
+  .main p {
+    font-size: 13px;
+  }
 
-</body>
+  .slogam {
+    font-size: 11px;
+  }
 
-</html>
+  .main {
+    height: 300px;
+  }
+
+  .content {
+    max-width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .filtro {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .section {
+    max-width: 100%;
+    border-top: 2px solid #e3631c;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    text-align: center;
+  }
+
+  .section p {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .section h1 {
+    color: #e3631b;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .section-h {
+    max-width: 100%;
+    border-top: 2px solid #e3631c;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    text-align: center;
+  }
+
+  .section-h p {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .section-h h1 {
+    color: #e3631b;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .img {
+    width: 150px;
+  }
+}
