@@ -1,13 +1,59 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background: black;
-    padding: 20px;
+    padding: 100px;
 }
 
 .video {
     max-width: 100%;
+}
+
+.descript {
+    color: white;
+    border: 1.5px solid rgba(187, 187, 187, 0.438);
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.descript h1 {
+    font-size: 40px;
+}
+
+.descript p {
+    font-size: 18px;
+}
+
+.descript a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 0.5px solid white;
+    font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    body {
+        padding: 20px;
+    }
+
+
+    .descript h1 {
+        font-size: 25px;
+    }
+
+    .descript p {
+        font-size: 11px;
+    }
+
+    .descript a {
+        font-size: 11px;
+    }
+    
 }
