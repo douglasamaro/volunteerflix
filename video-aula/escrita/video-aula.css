@@ -13,6 +13,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
 /* Aqui vai as congigurações do menu */
 
 body::-webkit-scrollbar {
@@ -157,7 +158,6 @@ nav {
   margin-left: 0px;
   padding-right: 0px;
   z-index: 9;
-  max-width: 100px;
 }
 .img {
   width: 200px;
@@ -177,6 +177,7 @@ nav {
 
 .galeria {
   display: flex;
+
   overflow-y: hidden;
   background: black;
   box-shadow: 30px 1px 100px black;
@@ -236,7 +237,6 @@ nav {
     width: 150px;
   }
 }
-
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
